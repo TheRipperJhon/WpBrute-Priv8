@@ -84,7 +84,7 @@ class WordPress_priv8Bf(object):
             Username = usgen
             time.sleep(1)
             print self.c + '       [' + self.y + '+' + self.c + ']' + self.w + \
-                  ' Enumeration Username:  ' + self.g + Username  + self.g + ' [OK]'
+                  ' Enumeration Username:  ' + self.g + str(Username)  + self.g + ' [OK]'
         else:
             try:
                 Username = raw_input(self.c + '       [' + self.y + '*' + self.c + ']' + self.w +
